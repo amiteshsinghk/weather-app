@@ -1,5 +1,6 @@
 package com.amitesh.weatherapp.presentation
 
+import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -38,6 +39,7 @@ fun WeatherCard(
     modifier: Modifier = Modifier
 ){
     state.weatherInfo?.currentWeatherData?.let{data ->
+        Log.d("WeatherCard","weatherInfo :: currentWeatherData :: $data")
         Card(
             backgroundColor = backgroundColor,
             shape = RoundedCornerShape(10.dp),
