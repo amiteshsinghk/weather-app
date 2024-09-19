@@ -9,6 +9,8 @@ object AndroidXVersions{
 object SquareVersion{
     const val retrofit = "2.9.0"
     const val loggingInterceptor = "5.0.0-alpha.3"
+    const val okHttpVersion = "4.11.0"
+    const val moshiVersion = "1.15.0"
 }
 
 object LocationVersion{

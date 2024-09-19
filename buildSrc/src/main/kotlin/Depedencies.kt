@@ -10,8 +10,12 @@ object AndroidX{
 
 object Square {
     const val retrofit = "com.squareup.retrofit2:retrofit:${SquareVersion.retrofit}"
-    const val moshi = "com.squareup.retrofit2:converter-moshi:${SquareVersion.retrofit}"
+    const val retrofitMoshiConvertor = "com.squareup.retrofit2:converter-moshi:${SquareVersion.retrofit}"
     const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${SquareVersion.loggingInterceptor}"
+    const val okHttp = "com.squareup.okhttp3:okhttp:${SquareVersion.okHttpVersion}"
+    const val okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${SquareVersion.okHttpVersion}"
+    const val okhttpURLConnection = "com.squareup.okhttp3:okhttp-urlconnection:${SquareVersion.okHttpVersion}"
+    const val moshi = "com.squareup.moshi:moshi-kotlin:${SquareVersion.moshiVersion}"
 }
 
 object Location{
